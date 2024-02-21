@@ -1,0 +1,120 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f8f8; /* Set background color */
+    color: #333; /* Set text color */
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background-color: #333; /* Set header background color */
+    color: #fff; /* Set header text color */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+/* Navigation Menu Styles */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #3410e8;
+}
+
+/* Additional Styles */
+/* Styles for labels, inputs, and select dropdowns */
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #545353;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    background-color: #fff;
+    color: #aba8a8;
+    cursor: pointer;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px; /* Add padding to main content */
+}
+
+/* Section Styles */
+section {
+    margin-bottom: 50px; /* Add margin-bottom to sections */
+}
+
+/* Button Styles */
+button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    background-color: #07daff; /* Set button background color */
+    color: #fff; /* Set button text color */
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #001eff; /* Change button background color on hover */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333; /* Set footer background color */
+    color: #fff; /* Set footer text color */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Image Styles */
+#display-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+    max-height: 400px; /* Set a maximum height for the images */
+}
